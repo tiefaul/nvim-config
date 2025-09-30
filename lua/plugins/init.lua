@@ -5,17 +5,30 @@ return {
     opts = require "configs.conform",
   },
 
-  -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
     config = function()
       require "configs.lspconfig"
     end,
   },
+  -- Copilot config
   {
     "github/copilot.vim",
-    lazy = false,
+    cmd = "Copilot",
   },
+
+  -- CopilotChat config
+  {
+    "CopilotC-Nvim/CopilotChat.nvim",
+    lazy = false,
+    dependencies = {
+      { "nvim-lua/plenary.nvim", branch = "master" },
+    },
+    build = "make tiktoken",
+    opts = require "configs.copilotchat",
+  },
+
+  -- These are some examples, uncomment them if you want to see them work!
 
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
