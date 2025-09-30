@@ -1,8 +1,7 @@
 **This repo is supposed to be used as config by NvChad users!**
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+To import these settings into your config. Make sure you have installed NeoVim version 0.11.4 or greater.
+Copy the contents of the nvim-config folder into your `~/.config/nvim/` folder.
 
 # Credits
 
