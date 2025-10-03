@@ -4,7 +4,6 @@
 2. Copy the contents of the `nvim-config` folder into your ~/.config/nvim/ directory.
 3. Remove the `.git` folder after copying.
 4. Update file ownership to your user account:
-5. 
 ```bash
 chown -R user:user ~./config/nvim
  ```
