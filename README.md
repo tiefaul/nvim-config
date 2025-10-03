@@ -1,4 +1,4 @@
-**This repo is supposed to be used as config by NvChad users!**
+**This repo is supposed to be used as config for my NeoVim. The original starter config was from NvChad**
 
 1. Ensure you have NeoVim version 0.11.4 or later installed.
 2. Copy the contents of the `nvim-config` folder into your ~/.config/nvim/ directory.
@@ -7,7 +7,3 @@
 ```bash
 chown -R user:user ~./config/nvim
  ```
-
-# Credits
-
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
