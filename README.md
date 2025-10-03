@@ -1,7 +1,12 @@
 **This repo is supposed to be used as config by NvChad users!**
 
-To import these settings into your config. Make sure you have installed NeoVim version 0.11.4 or greater.
-Copy the contents of the nvim-config folder into your `~/.config/nvim/` folder. Then remove the `.git`. Also make sure you `chown user:user <file>` what you clone over.
+1. Ensure you have NeoVim version 0.11.4 or later installed.
+2. Copy the contents of the `nvim-config` folder into your ~/.config/nvim/ directory.
+3. Remove the `.git` folder after copying.
+4. Update file ownership to your user account:
+   ```bash
+   chown -R user:user ~./config/nvim
+   ```
 
 # Credits
 
