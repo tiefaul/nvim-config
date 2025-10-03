@@ -7,3 +7,4 @@
 ```bash
 chown -R user:user ~./config/nvim
  ```
+5. Move the `lsp` folder to your nvim runtime. My runtime can be found in `/opt/nvim-linux-x86_64/share/nvim/runtime/`. If your lsp folder already exist the add the contents into the existing folder.
