@@ -1,10 +1,8 @@
-## This repo is used as a config for my NeoVim
+**This repo is supposed to be used as config by NvChad users!**
 
-1. Ensure you have NeoVim version 0.11.4 or later installed.
-2. Copy the contents of the `nvim-config` folder into your `~/.config/nvim/` directory.
-3. Remove the `.git` folder after copying.
-4. Update file ownership to your user account:
-```bash
-chown -R user:user ~./config/nvim
- ```
-5. Move the `lsp` folder to your nvim runtime. My runtime can be found in `/opt/nvim-linux-x86_64/share/nvim/runtime/`. If your lsp folder already exist the add the contents into the existing folder.
+To import these settings into your config. Make sure you have installed NeoVim version 0.11.4 or greater.
+Copy the contents of the nvim-config folder into your `~/.config/nvim/` folder. Then remove the `.git`. Also make sure you `chown user:user <file>` what you clone over.
+
+# Credits
+
+1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!

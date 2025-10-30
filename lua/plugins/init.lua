@@ -28,6 +28,16 @@ return {
     opts = require "configs.copilotchat",
   },
 
+  -- Autosave config
+  {
+    "Pocco81/auto-save.nvim",
+    lazy = false,
+    opts = require "configs.autosave",
+    keys = {
+      { "<leader>uv", "<cmd>ASToggle<CR>", desc = "Toggle autosave" },
+    },
+  }
+
   -- These are some examples, uncomment them if you want to see them work!
 
   -- test new blink
