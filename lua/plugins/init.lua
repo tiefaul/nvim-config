@@ -34,7 +34,7 @@ return {
     lazy = false,
     opts = require "configs.autosave",
     keys = {
-      { "<leader>uv", "<cmd>ASToggle<CR>", desc = "Toggle autosave" },
+      { "<leader>zv", "<cmd>ASToggle<CR>", desc = "Toggle autosave" },
     },
   }
 
